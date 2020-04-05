@@ -1,0 +1,32 @@
+@media (prefers-color-scheme: dark) {
+  html {
+    background: #444;
+    color: #CCC;
+  }
+  a {
+    color: #9BE;
+  }
+  a:visited {
+    color: #D9D;
+  }
+  input,
+  textarea,
+  select,
+  option,
+  button {
+    background: #444;
+    color: #CCC;
+  }
+  input {
+    border: 2px inset #888;
+  }
+  button {
+    border: 2px outset #888;
+  }
+  /* needed because transparency */
+  img,
+  svg,
+  canvas {
+    background: white;
+  }
+}
